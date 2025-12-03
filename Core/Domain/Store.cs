@@ -2,9 +2,9 @@ namespace Core.Domain;
 
 public class Store
 {
-    public string Id { get; set; }
-    public string Zone { get; set; }
-    public List<Item> Items { get; set; }
+    public string Id { get; set; } = string.Empty;
+    public string Zone { get; set; } = string.Empty;
+    public List<Item> Items { get; set; } = new();
     
     public Store() {}
 

@@ -2,8 +2,8 @@ namespace Core.Domain;
 
 public class DistanceMap
 {
-    public string ZoneTo { get; set; }
-    public string ZoneFrom { get; set; }
+    public string ZoneTo { get; set; } = string.Empty;
+    public string ZoneFrom { get; set; } = string.Empty;
     public int Distance { get; set; }
 
     public DistanceMap()

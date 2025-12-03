@@ -16,26 +16,9 @@ public static class StaticData
         new DistanceMap(ZONEB, ZONEA, 3),
         new DistanceMap(ZONEB, ZONEB, 0),
         new DistanceMap(ZONEB, ZONEC, 8),
+        new DistanceMap(ZONEC, ZONEA, 6),
+        new DistanceMap(ZONEC, ZONEB, 8),
         new DistanceMap(ZONEC, ZONEC, 0),
-    };
-
-    public static readonly List<Store> Stores = new List<Store>
-    {
-        new Store(
-            "1",
-            ZONEA,
-            Items.Where(x => x.Id is "4" or "5" or "6").ToList()
-        ),
-        new Store(
-            "2",
-            ZONEB,
-            Items.Where(x => x.Name is "4" or "5").ToList()
-        ),
-        new Store(
-            "3",
-            ZONEC,
-            Items.Where(x => x.Name is "7" or "8").ToList()
-        )
     };
 
     public static readonly List<Item> Items = new List<Item>
@@ -48,5 +31,24 @@ public static class StaticData
         new Item("6", "Eggs", "", 5.70, Category.BAKERY),
         new Item("7", "Bread", "", 1.30, Category.BAKERY),
         new Item("8", "Juice", "", 8.99, Category.BEVERAGES),
+    };
+
+    public static readonly List<Store> Stores = new List<Store>
+    {
+        new Store(
+            "1",
+            ZONEA,
+            Items.Where(x => x.Id is "4" or "5" or "6").ToList()
+        ),
+        new Store(
+            "2",
+            ZONEB,
+            Items.Where(x => x.Id is "4" or "5").ToList()
+        ),
+        new Store(
+            "3",
+            ZONEC,
+            Items.Where(x => x.Id is "7" or "8").ToList()
+        )
     };
 }

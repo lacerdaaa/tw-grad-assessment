@@ -2,7 +2,7 @@ namespace Core.Domain;
 
 public enum LoyaltyTier
 {
-    DIAMONG = 10,
+    DIAMOND= 10,
     GOLD = 5,
     SILVER = 3
 }

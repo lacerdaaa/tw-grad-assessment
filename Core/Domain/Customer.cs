@@ -2,10 +2,10 @@ namespace Core.Domain;
 
 public class Customer
 {
-    public string CustomerId { get; set; }
-    public string FirstName { get; set; }
-    public string LastName { get; set; }
-    public string LoyaltyPoints { get; set; }
+    public string CustomerId { get; set; } = string.Empty;
+    public string FirstName { get; set; } = string.Empty;
+    public string LastName { get; set; } = string.Empty;
+    public int LoyaltyPoints { get; set; }
     public LoyaltyTier Tier { get; set; }
 
     public Customer()
@@ -19,7 +19,7 @@ public class Customer
         LastName = lastName;
     }
 
-    public Customer(string customerId, string firstName, string lastName, string loyaltyPoints, LoyaltyTier tier)
+    public Customer(string customerId, string firstName, string lastName, int loyaltyPoints, LoyaltyTier tier)
     {
         CustomerId = customerId;
         FirstName = firstName;

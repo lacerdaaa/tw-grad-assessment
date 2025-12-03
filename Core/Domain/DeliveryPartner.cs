@@ -2,9 +2,9 @@ namespace Core.Domain;
 
 public class DeliveryPartner
 {
-    public string Id { get; set; }
-    public string Name { get; set; }
-    public List<Delivery> Deliveries { get; set; }
+    public string Id { get; set; } = string.Empty;
+    public string Name { get; set; } = string.Empty;
+    public List<Delivery> Deliveries { get; set; } = new();
 
     public DeliveryPartner()
     {
