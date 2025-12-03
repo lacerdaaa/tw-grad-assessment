@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9f22244-590a-438c-9c80-85a2dffcf68a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Core/Domain/Category.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Domain/Customer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Domain/Delivery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Domain/DeliveryPartner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Domain/DistanceMap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Domain/Item.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Domain/LoyaltyTier.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Domain/OrderStatus.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Domain/Store.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/StaticData/StaticData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.JOI Market/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JOI Market/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Domain/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Domain/Item.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +18,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57d616db882b441b8c50720b4477e03db2e200/6b/a410ee2c/List`1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Core/Domain/Category.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Core/Domain/Customer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Core/Domain/Delivery.cs" root0="FORCE_HIGHLIGHTING" />
@@ -31,8 +26,10 @@
     <setting file="file://$PROJECT_DIR$/Core/Domain/DistanceMap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Core/Domain/Item.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Core/Domain/LoyaltyTier.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Core/Domain/Order.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Core/Domain/OrderStatus.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Core/Domain/Store.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Core/StaticData/StaticData.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -70,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1764718541955</updated>
       <workItem from="1764718543337" duration="1358000" />
-      <workItem from="1764782412425" duration="337000" />
+      <workItem from="1764782412425" duration="2019000" />
     </task>
     <servers />
   </component>

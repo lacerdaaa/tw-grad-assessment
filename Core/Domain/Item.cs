@@ -12,7 +12,7 @@ public class Item
     {
     }
 
-    public Item(string id, string name, string description, double price, Category category)
+    public Item(string id, string name, string description, double price, Category category = Category.DEFAULT)
     {
         Id = id;
         Name = name;
